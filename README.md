@@ -116,3 +116,7 @@ Tasks are kept in memory using a dictionary and persisted to `tasks.json`.
 - argparse
 - JSON
 - setuptools
+
+# Credit
+
+https://roadmap.sh/projects/task-tracker
