@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task-tracker"
+version = "0.1.0"
+description = "A simple CLI task tracker"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2"
+]
+
+# calls main() from main.py
+[project.scripts]
+task-cli = "task_tracker.main:main"
